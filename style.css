@@ -1,0 +1,21 @@
+body{
+    background-color: #A7D3CB;
+    margin: 0;
+}
+
+.hero{
+    text-align: center;
+}
+
+.main {
+    height:120vh;
+    background: cover;
+    width: 100%;
+}
+
+.words{
+    width: 80%;
+    top:-130vh;
+    position: relative;
+
+}
