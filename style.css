@@ -1,6 +1,6 @@
 body{
     background-color: #A7D3CB;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .hero{
@@ -49,4 +49,45 @@ li a{
     width:100%;
     right:.000001%;
     top:85vh;
+}
+
+.learn {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.learn h1{
+    color:#E17284;
+    padding-top: 20vh;
+    font-family: "ofelia-display", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1 vw;
+}
+
+.learn p{
+    width:33%;
+    font-family: "ofelia-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11pt;
+}
+
+button{
+    background:#E17284;
+    border: none;
+    padding:11px 35px 11px 35px;
+    border-radius: 7px;
+    margin-top: 25px;
+    color:white;
+    font-family: "ofelia-display", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 12pt;
+}
+
+button:hover{
+    background-color: #E36534;
 }
