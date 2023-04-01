@@ -20,6 +20,7 @@ nav li{
     display: inline-block;
     list-style: none;
     padding-right: 3%;
+    cursor: pointer;
 }
 li a{
     text-decoration: none;
@@ -30,18 +31,11 @@ li a{
     font-size: 1.5vw;
 }
 
-.main {
-    height:120vh;
-    background: cover;
-    width: 100%;
-    z-index: 0;
-}
-
 .words{
     width: 80%;
     top: -30vh;
     position: relative;
-    z-index: 3;
+    z-index: 1;
 }
 
 .curve{
@@ -68,11 +62,11 @@ li a{
 }
 
 .learn p{
-    width:33%;
-    font-family: "ofelia-display", sans-serif;
+    width:28%;
+    font-family: "ofelia-text", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 button{
@@ -86,8 +80,56 @@ button{
     font-weight: 800;
     font-style: normal;
     font-size: 12pt;
+    cursor: pointer;
+    z-index: 2;
 }
 
 button:hover{
-    background-color: #E36534;
+    background: #E36534;
+}
+
+.goalline img{
+position:absolute;
+margin-top: -95vh;
+z-index: -10;
+}
+
+.goals h1{
+    font-family: "chantal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:white;
+    margin-top: 30vh;
+    font-size: 2.5vw;
+}
+
+.goalstext{
+    text-align: center;
+    z-index: 10;
+}
+
+.circles img{
+    width: 15%;
+}
+
+.circ1:hover{
+    background:#F6C745;
+    border-radius: 255px;
+}
+
+.circ2:hover{
+    background:#E36534;
+    border-radius: 255px;
+}
+
+.circ3:hover{
+    background:#E17284;;
+    border-radius: 255px;
+}
+
+.circles{
+    display: flex;
+    justify-content: center;
+    gap:3%;
+    flex-wrap: wrap;
 }
