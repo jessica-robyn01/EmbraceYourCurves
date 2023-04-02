@@ -133,3 +133,84 @@ z-index: -10;
     gap:3%;
     flex-wrap: wrap;
 }
+
+.campaign{
+    text-align: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campaign h1{
+    font-family: "chantal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:white;
+    margin-top: 50vh;
+    font-size: 2.5vw;
+    transform: rotate(8deg);
+}
+
+.campics img{
+    width: 18%;
+    transition: transform .2s;
+}
+
+.campics img:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    box-shadow: 0 0 15px rgba(39, 55, 56, 0.906); 
+}
+
+.campics{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    gap:3%;
+    flex-wrap: wrap;
+}
+
+.campaign p{
+    width:18%;
+    margin-top: 5vh;
+    font-family: "ofelia-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10pt;
+}
+
+.testimonial img{
+    width:25%;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16vh;
+    text-align: center;
+}
+
+.testimonial h1{
+    font-family: "chantal", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:white;
+    font-size: 2.5vw;
+    padding-left: 2.5%;
+}
+
+.testimonial h2{
+    font-family: "ofelia-display", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25pt;
+    color: white;
+    width:18%;
+    padding-left: 2.5%;
+}
+
+footer img{
+    margin-bottom: -2vh;
+    position: static;
+}
