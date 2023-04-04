@@ -24,7 +24,7 @@ nav li{
     padding-right: 3%;
     cursor: pointer;
 }
-li a{
+nav a{
     text-decoration: none;
     color:white;
     font-family: "ofelia-display", sans-serif;
@@ -33,9 +33,10 @@ li a{
     font-size: 1.5vw;
 }
 
-li a:hover{
-    color:red;
+nav a:hover {
+    color: red;
 }
+
 
 .words{
     width: 80%;
@@ -73,6 +74,14 @@ li a:hover{
     font-weight: 400;
     font-style: normal;
     font-size: 10pt;
+}
+
+span{
+    color:#E36534;
+    font-family: "ofelia-text", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 5px;
 }
 
 button{
@@ -222,9 +231,7 @@ z-index: -10;
 }
 
 .logo{
-    width:8%;
-    position: absolute;
-    float:right;
+    width:100px;
 }
 
 footer{
@@ -232,4 +239,28 @@ footer{
     height:40vh;
     width:100%;
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    gap:5%;
+    align-items: center;
+}
+
+.links h1{
+    color:white;
+    font-family: "ofelia-display", sans-serif;
+    font-weight: 800;
+    font-style: normal; 
+    font-size: 1.5vw;  
+}
+
+.socials h1{
+    color:white;
+    font-family: "ofelia-display", sans-serif;
+    font-weight: 800;
+    font-style: normal; 
+    font-size: 1.5vw;    
+}
+
+.links1 li {
+    list-style: none;
 }
