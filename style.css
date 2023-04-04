@@ -210,7 +210,20 @@ z-index: -10;
     padding-left: 2.5%;
 }
 
-footer img{
+.footerwave{
     margin-bottom: -2vh;
     position: static;
+}
+
+.logo{
+    width:8%;
+    position: absolute;
+    float:right;
+}
+
+footer{
+    background-image: url(images/curvebottom.svg);
+    height:40vh;
+    width:100%;
+    background-size: cover;
 }
