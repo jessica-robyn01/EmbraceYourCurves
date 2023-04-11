@@ -18,6 +18,7 @@ nav{
     z-index: 4;
 }
 
+
 nav li{
     display: inline-block;
     list-style: none;
@@ -231,7 +232,8 @@ z-index: -10;
 }
 
 .logo{
-    width:100px;
+    width:120px;
+    padding-top: 20px;
 }
 
 footer{
@@ -239,10 +241,15 @@ footer{
     height:40vh;
     width:100%;
     background-size: cover;
+}
+
+.footerinfo{
     display: flex;
     flex-direction: row;
     gap:5%;
     align-items: center;
+    padding-top: 15vh;
+    padding-left: 18%;
 }
 
 .links h1{
@@ -261,6 +268,38 @@ footer{
     font-size: 1.5vw;    
 }
 
-.links1 li {
+
+footer a {
+    text-decoration: none;
+    color:white;
+    font-family: "ofelia-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10pt;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+.socials ul{
     list-style: none;
+    padding: 0;
+    line-height: 20pt;
+}
+
+.links{
+    text-align: center;
+}
+
+.links ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    line-height: 20pt;
+    }    
+
+.socials{
+    text-align: center;
 }
