@@ -232,8 +232,8 @@ z-index: -10;
 }
 
 .logo{
-    width:120px;
-    padding-top: 20px;
+    width:8vw;
+    padding-top: 5vh;
 }
 
 footer{
@@ -257,7 +257,8 @@ footer{
     font-family: "ofelia-display", sans-serif;
     font-weight: 800;
     font-style: normal; 
-    font-size: 1.5vw;  
+    font-size: 1.5vw;
+    margin-bottom: -10px;  
 }
 
 .socials h1{
@@ -266,6 +267,7 @@ footer{
     font-weight: 800;
     font-style: normal; 
     font-size: 1.5vw;    
+    margin-bottom: -10px;  
 }
 
 
@@ -275,7 +277,7 @@ footer a {
     font-family: "ofelia-text", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 10pt;
+    font-size: 0.75vw;
 }
 
 footer a:hover{
@@ -286,7 +288,7 @@ footer a:hover{
 .socials ul{
     list-style: none;
     padding: 0;
-    line-height: 20pt;
+    line-height: 3vh;
 }
 
 .links{
@@ -297,7 +299,7 @@ footer a:hover{
     list-style: none;
     text-decoration: none;
     padding: 0;
-    line-height: 20pt;
+    line-height: 3vh;
     }    
 
 .socials{
