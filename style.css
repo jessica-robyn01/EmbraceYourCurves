@@ -6,8 +6,8 @@ body{
 .hero{
     text-align: center;
     position: relative;
-    background: url(images/hero.jpg) no-repeat;
-    height: 110vh;
+    background: url(images/hero2.jpg) no-repeat;
+    height: 115vh;
     background-size: cover;
     background-position-y: -8vh;
 
@@ -15,7 +15,7 @@ body{
 
 nav{
     padding-top: 10vh;
-    z-index: 4;
+    /* z-index: 4; */
 }
 
 
@@ -40,18 +40,20 @@ nav a:hover {
 
 
 .words{
-    width: 80%;
+    height:80vw;
+    margin-top: -28vh;
+    /* width: 80%;
     top: -30vh;
-    position: relative;
-    z-index: 1;
+    position: relative; */
+    /* z-index: 1; */
 }
 
-.curve{
+/* .curve{
     position: absolute;
     width:100%;
     right:.000001%;
     top:85vh;
-}
+} */
 
 .learn {
     text-align: center;
@@ -62,7 +64,7 @@ nav a:hover {
 
 .learn h1{
     color:#E17284;
-    padding-top: 20vh;
+    padding-top: 15vh;
     font-family: "ofelia-display", sans-serif;
     font-weight: 800;
     font-style: normal;
