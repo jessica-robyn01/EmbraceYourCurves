@@ -3,6 +3,10 @@ body{
     margin: 0 auto;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .hero{
     text-align: center;
     position: relative;
@@ -15,7 +19,6 @@ body{
 
 nav{
     padding-top: 10vh;
-    /* z-index: 4; */
 }
 
 
@@ -35,25 +38,15 @@ nav a{
 }
 
 nav a:hover {
-    color: red;
+    text-decoration: underline 3pt;
 }
 
 
 .words{
-    height:80vw;
-    margin-top: -28vh;
-    /* width: 80%;
-    top: -30vh;
-    position: relative; */
-    /* z-index: 1; */
+    /* height:135vh; */
+    width:65%;
+    padding-top: 17vh;
 }
-
-/* .curve{
-    position: absolute;
-    width:100%;
-    right:.000001%;
-    top:85vh;
-} */
 
 .learn {
     text-align: center;
@@ -279,11 +272,11 @@ footer a {
     font-family: "ofelia-text", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.75vw;
+    font-size: 0.9vw;
 }
 
 footer a:hover{
-    text-decoration: underline;
+    text-decoration: underline 3pt;
 }
 
 
@@ -306,4 +299,29 @@ footer a:hover{
 
 .socials{
     text-align: center;
+}
+
+.top{
+    text-align: center;
+    margin-left: 52px;
+    padding-top: 40px;
+}
+
+.topbutton{
+    background:#E17284;
+    border: none;
+    padding:11px 35px 11px 35px;
+    border-radius: 7px;
+    margin-top: 25px;
+    color:white;
+    font-family: "ofelia-display", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 12pt;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.topbutton:hover{
+    background: #E36534;
 }
