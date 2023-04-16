@@ -41,9 +41,26 @@ nav a:hover {
     text-decoration: underline 3pt;
 }
 
+/* hamburger */
+.hamburger { 
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    display: none;
+}
+
+.hamburger:focus{
+    outline: none;
+}
+
+.hamburger:hover{
+    background: transparent;
+}
+
+/* end burger */
 
 .words{
-    /* height:135vh; */
     width:65%;
     padding-top: 17vh;
 }
@@ -57,7 +74,6 @@ nav a:hover {
 
 .learn h1{
     color:#E17284;
-    padding-top: 15vh;
     font-family: "ofelia-display", sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -221,10 +237,10 @@ z-index: -10;
     padding-left: 2.5%;
 }
 
-.footerwave{
+/* .footerwave{
     margin-bottom: -2vh;
     position: static;
-}
+} */
 
 .logo{
     width:8vw;
@@ -286,6 +302,11 @@ footer a:hover{
     line-height: 3vh;
 }
 
+.linksall{
+    display: flex;
+    gap: 65px;
+}
+
 .links{
     text-align: center;
 }
@@ -324,4 +345,139 @@ footer a:hover{
 
 .topbutton:hover{
     background: #E36534;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 767px) {
+    .nav-ul{
+        display: flex;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        line-height: 40px;
+        background-color: #E17284;
+        width:100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    li a{
+        font-size: 20px;
+    }
+
+    .hamburger{
+        display: block;
+        
+    }
+
+    .words{
+        width: 400px;
+    }
+
+    .hero{
+        /* background-position-x: -19vh; */
+        height:70vh;
+    }
+
+    .learn h1{
+       width:70%;
+    }
+
+    .learn p{
+        width:60%;
+    }
+
+    .goalline img{
+        position:absolute;
+        margin-top: -108vh;
+    }
+
+    .circles{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .circles img{
+        width: 250px;
+    }
+    .goalstext h1{
+        font-size: 8vw;
+    }
+
+    .goals{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .campaign{
+        display: flex;
+    }
+
+    .campics img{
+        width: 280px;
+    }
+
+    .campics img:hover{
+        transform: none;
+        box-shadow: none;
+    }
+
+    .campics{
+        gap:50px;
+    }
+
+    .campaign h1{
+        font-size: 8vw;
+        margin-top: 15vh;
+    }
+
+    .campaign p{
+        width:65%;
+    }
+
+    .testimonial img{
+        width:70%;
+    }
+
+    .testimonial h1{
+        font-size: 8vw;
+    }
+
+    .testimonial h2{
+        font-size: 15pt;
+        width:65%;
+        margin-left:20px;
+    }
+
+    .top{
+        margin-right: 20px;
+    }
+
+    footer{
+        background-image: url(images/curvebottomPHONE.svg);
+        height:25vh;
+        width:100%;
+        background-size: cover;
+        margin-top: 10vh;
+    }
+    
+    .footerinfo{
+        padding-top: 8vh;
+        flex-direction: column;
+        margin-right: 15%;
+    }
+
+    .linksall{
+        gap: 15px;
+    }
+
+    .logo{
+        width:100px;
+        margin-top: -12vh;
+    }
 }
