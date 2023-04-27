@@ -43,21 +43,7 @@ nav a:hover {
 }
 
 /* hamburger */
-.hamburger { 
-    background-color: transparent;
-    border: 0;
-    color: #fff;
-    font-size: 20px;
-    display: none;
-}
 
-.hamburger:focus{
-    outline: none;
-}
-
-.hamburger:hover{
-    background: transparent;
-}
 
 /* end burger */
 
@@ -468,11 +454,28 @@ footer a:hover{
     }
 
     .linksall{
-        gap: 15px;
+        gap: 35px;
+        margin-top: -8vh;
     }
 
     .logo{
-        width:100px;
-        margin-top: -12vh;
+        width:0px;
     }
-}
+
+    .links h1{
+        font-size: 14pt;
+    }
+
+    .socials h1{
+        font-size: 14pt;
+    }
+
+    .links li a{
+        font-size: 10pt;
+    }
+
+    .socials li a{
+        font-size: 10pt;
+    }
+
+    }
