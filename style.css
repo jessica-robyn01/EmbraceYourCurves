@@ -188,12 +188,13 @@ z-index: -10;
     box-shadow: 0 0 15px rgba(39, 55, 56, 0.906); 
 }
 
-.campics{
-    display: flex;
-    display: flex;
+.campics img{
+    /* display: flex;
     justify-content: center;
     gap:3%;
     flex-wrap: wrap;
+    flex-direction: row; */
+    margin:10px;
 }
 
 .campaign p{
@@ -537,3 +538,8 @@ footer a:hover{
     }
 
     }
+
+    .main img{
+        width:100%;
+    }
+
